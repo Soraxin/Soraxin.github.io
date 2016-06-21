@@ -18,15 +18,6 @@ function getDeltaTime()
 	return deltaTime;
 }
 
-var tx = pixelToTile(player.x),
-var ty = pixelToTile(player.y),
-var nx = player.x%TILE, // true if player overlaps right
-var ny = player.y%TILE, // true if player overlaps below
-var cell = cellAtTileCoord(tx, ty),
-var cellright = cellAtTileCoord(tx + 1, ty),
-var celldown = cellAtTileCoord(tx, ty + 1),
-var celldiag = cellAtTileCoord(tx + 1, ty + 1);
-
 var SCREEN_WIDTH = canvas.width;
 var SCREEN_HEIGHT = canvas.height;
 
