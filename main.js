@@ -18,6 +18,7 @@ function getDeltaTime()
 	return deltaTime;
 }
 
+
 var SCREEN_WIDTH = canvas.width;
 var SCREEN_HEIGHT = canvas.height;
 
